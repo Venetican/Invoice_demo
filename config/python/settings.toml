@@ -1,38 +1,66 @@
-[countries]
-country_name = [
-    "Indonesia",
-    "Malaysia",
-    "Philippines",
-    "Singapore",
-    "Thailand",
-    "Brunei Darussalam",
-    "Vietnam",
-    "Lao PDR",
-    "Myanmar",
-    "Cambodia",
-    "China",
-    "Japan",
-    "Korea, Rep."
-]
-country_code = [
-    'IDN',
-    'MYS',
-    'PHL',
-    'SGP',
-    'THA',
-    'BRN',
-    'VNM',
-    'LAO',
-    'MMR',
-    'KHM',
-    'CHN',
-    'JPN',
-    'KOR'
-]
-[data]
-gdp = 'gdp.csv'
-inflation = 'inflation.csv'
-employment_rate = 'employment_rate.csv'
-trade_balance = 'trade_balance.csv'
-interest_rate = 'interest_rate.csv'
+[APP]
+repo = 'C:\Users\Danie\Desktop\Projekty\invoice_test'
 
+[subdir]
+config = "config"
+docs = "docs"
+models = "models"
+scripts = "scripts"
+references = "references"
+reports = "reports"
+figures = "reports/figures"
+tmp = "tmp"
+
+[src]
+src = "src"
+data = "data"
+features = "features"
+models = "models"
+visualization = "visualization"
+
+[data]
+external = "external"
+interim = "interim"
+processed = "processed"
+raw = "raw"
+
+[data_structure]
+box = "box"
+entities = "entities"
+img = "img"
+
+[files]
+license = "LICENSE"
+makefile = "Makefile"
+readme = "README.md"
+config_py = "config.py"
+settings_toml = "settings.toml"
+requirements_txt = "requirements.txt"
+setup_py = "setup.py"
+init_py = "__init__.py"
+tox_ini = "tox.ini"
+app_logger = "app_loger.log"
+
+[scripts]
+make_dataset_py = "make_dataset.py"
+build_features_py = "build_features.py"
+predict_model_py = "predict_model.py"
+train_model_py = "train_model.py"
+visualize_py = "visualize.py"
+logger_py = "logger.py"
+
+[resources]
+python = "python"
+
+[invoice_attributes]
+p_dh = "p_dh"
+cf_do = "cf_do"
+d_fak = "d_fak"
+d_usk = "d_usk"
+d_spl = "d_spl"
+castk = "castk"
+kdo = "kdo"
+dico = "dico"
+dan = "dan"
+c_buc = "c_buc"
+k_ban = "k_ban"

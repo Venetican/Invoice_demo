@@ -2,9 +2,9 @@
 from pathlib import Path
 from dynaconf import Dynaconf
 
-relative_path = 'DP/nf/scripts'
-project = 'config.py'
-config_path = Path.cwd() / relative_path / project
+relative_path = 'config/python'
+config = 'config_invoice.py'
+config_path = Path.cwd() / relative_path / config
 
 settings = Dynaconf(
     root_path = config_path,

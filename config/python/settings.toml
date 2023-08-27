@@ -1,0 +1,38 @@
+[countries]
+country_name = [
+    "Indonesia",
+    "Malaysia",
+    "Philippines",
+    "Singapore",
+    "Thailand",
+    "Brunei Darussalam",
+    "Vietnam",
+    "Lao PDR",
+    "Myanmar",
+    "Cambodia",
+    "China",
+    "Japan",
+    "Korea, Rep."
+]
+country_code = [
+    'IDN',
+    'MYS',
+    'PHL',
+    'SGP',
+    'THA',
+    'BRN',
+    'VNM',
+    'LAO',
+    'MMR',
+    'KHM',
+    'CHN',
+    'JPN',
+    'KOR'
+]
+[data]
+gdp = 'gdp.csv'
+inflation = 'inflation.csv'
+employment_rate = 'employment_rate.csv'
+trade_balance = 'trade_balance.csv'
+interest_rate = 'interest_rate.csv'
+
